@@ -1,0 +1,16 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+  } 
+   .qq {
+    background-image: url(./Picture/bg.jpg);
+    background-size: cover;        /* Ensures the image covers the entire element */
+    background-position: center;   /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents image repetition */
+    
+    max-width: 100%;      /* Full width of the viewport */
+   max-height: 100%;     /* Full height of the viewport */
+    
+    position: sticky;   /* Keeps the element in place when scrolling */
+}
+
