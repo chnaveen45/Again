@@ -1,49 +1,318 @@
 import React from 'react'
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-import './Style.css'
+import './Style.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faPhone, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram, faYoutube, faLinkedin, faGoogle } from "@fortawesome/free-brands-svg-icons";
+
+import Card from 'react-bootstrap/Card';
+import ff from './Picture/remove.png';
+import { Link } from 'react-router-dom';
+import card1 from './Picture/image1.png';
+import card2 from './Picture/image2.png';
+import card3 from './Picture/image3.png';
+import card4 from './Picture/ee.png';
+import card5 from './Picture/serve1.png';
+import card6 from './Picture/serve2.png';
+import card7 from './Picture/serve3.png';
+import card8 from '../Navbar/Picture/d9.png';
+import card9 from '../Navbar/Picture/whywork.png';
+import card10 from '../Navbar/Picture/w2.png';
+import card11 from '../Navbar/Picture/vh.jpg';
+
+
+
 function Custom() {
   return (
     <div>
-
-{/* <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand ></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar> */}
-
-    <div className='qq'>
+      <div className='qq'>
 
 
+        <div className='header'>
+          <img src={ff} alt="logo" className='logo' />
+          <div className='navbar' >
+            <Link to="/home" className='tt' >Home</Link>
+            <Link to="/services" className='tt'>Service</Link>
+            <Link to="/aboutus" className='tt'>AboutUs</Link>
+            <Link to="/contactus" className='tt'>ContactUs</Link>
 
+          </div>
+
+        </div>
+        <div className='uu'>
+          <h1>Empowering The Businesses Through The Technology</h1>
+          <p>At Vishwasri Technologies, we empower businesses by leveraging cutting-edge technology to drive growth and innovation. Our custom software solutions are designed to streamline operations, enhance efficiency, and unlock new opportunities.</p>
+        </div>
+
+      </div>
+      {/* <div className='ii'>
+        <h1>Our Company</h1>
+        <p>Welcome to Vishwasri Technologies Pvt Ltd, a dynamic startup dedicated to crafting innovative software solutions tailored to meet the diverse needs of modern businesses.</p>
+        <img src={card1} alt='loading...' ></img>
+        <img src={card2} alt='loading...' ></img>
+        <img src={card3} alt='loading...' ></img>
+        <img src={card4} alt='loading...' ></img>
+        <p>At Vishwasri Technologies, we specialize in custom software development, delivering high-quality, scalable, and user-centric applications that empower organizations to thrive in a competitive landscape. Whether you’re a startup, small business, or an established enterprise, our expertise ensures we bring your ideas to life with precision and creativity.</p>
+
+      </div> */}
+      <div className="company-container">
+        <div className="company-text">
+          <h1>Our Company</h1>
+          <p>
+            Welcome to Vishwasri Technologies Pvt Ltd, a dynamic startup dedicated to crafting innovative
+            software solutions tailored to meet the diverse needs of modern businesses.
+          </p>
+          <p>
+            At Vishwasri Technologies, we specialize in custom software development, delivering high-quality,
+            scalable, and user-centric applications that empower organizations to thrive in a competitive
+            landscape. Whether you’re a startup, small business, or an established enterprise, our expertise
+            ensures we bring your ideas to life with precision and creativity.
+          </p>
+          <img src={card4} alt='loading...' className='aa'></img>
+        </div>
+        <div className="image-grid">
+          <img src={card1} alt="loading..." className='pp' />
+          <img src={card2} alt="loading..." />
+          <img src={card3} alt="loading..." className='pp' />
+
+        </div>
+      </div>
+      {/* <div>
+      <h1>services</h1>
+    </div> */}
+      {/* <div className='mm'>
+      <div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={card5} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
     </div>
+    <div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={card6} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
     </div>
+    <div>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={card7} />
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Go somewhere</Button>
+      </Card.Body>
+    </Card>
+    </div>
+    </div> */}
+      <div>
+        <h1 style={{ display: 'flex', justifyContent: 'center', }}>Services</h1>
+        <div className="mm">
+
+
+
+          <div>
+            <Card className="custom-card">
+              <Card.Img variant="top" src={card5} />
+              <Card.Body style={{ background: '#014CA6', color: 'white', }}>
+                <Card.Title>Graphic Design</Card.Title>
+                <Card.Text>Our graphic design team brings creativity and professionalism to every project. We offer a range of design services, including branding, logo creation, social media graphic and marketing materials. Our goal is to help your business make a lasting visual impression that resonates with tour audience. <Link to="/servies" style={{ color: 'red' }}>  Know more</Link></Card.Text>
+
+              </Card.Body>
+            </Card>
+          </div>
+          <div>
+            <Card className="custom-card">
+              <Card.Img variant="top" src={card6} />
+              <Card.Body style={{ background: '#014CA6', color: 'white', }}>
+                <Card.Title>Web & App Development</Card.Title>
+                <Card.Text>With a focus on functionality and user experience, our web development team creates responsive, secure, and visually appealing websites. From e-commerce platforms to corporate websites, we ensure that each site reflects the brand’s identity while meeting <Link to="/servies" style={{ color: 'red' }}>  Know more</Link> </Card.Text>
+
+              </Card.Body>
+            </Card>
+          </div>
+          <div>
+            <Card className="custom-card">
+              <Card.Img variant="top" src={card7} />
+              <Card.Body style={{ background: '#014CA6', color: 'white', }}>
+                <Card.Title>Marketing</Card.Title>
+                <Card.Text>Our marketing services are designed to help your business grow in a digital-first world. We offer comprehensive strategies across social media marketing, search engine optimization (SEO), content marketing and paid advertising, helping to increase brand visibility, reach target audiences. <Link to="/servies" style={{ color: 'red' }}>  Know more</Link> </Card.Text>
+
+              </Card.Body>
+            </Card>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div>
+        <h2 style={{ display: 'flex', justifyContent: 'center', marginTop: '4%', marginBottom: '4%', }}>Development Process</h2>
+        <div className="development-process">
+          <div className="text-content">
+
+            <div className="process-diagram">
+              <div className="process-box top-left bv1" >
+                <h3>Discovery</h3>
+                <p>
+                  Understanding the project requirements, target audience, and goals through research and analysis. It sets the foundation for designing a solution.
+                </p>
+              </div>
+              <div className="process-box top-right bv2">
+
+                <h3>Design</h3>
+                <p>
+                  The design phase focuses on creating detailed blueprints, wireframes, and prototypes to define the system architecture and user experience.
+                </p>
+
+              </div>
+              <div className="process-box center-box  bv" >
+
+                <h3>Launch & Maintenance</h3>
+                <p>
+                  This involves deploying the software to users and providing ongoing updates, support, and enhancements to ensure optimal performance.
+                </p>
+
+              </div>
+              <div className="process-box bottom-left bv3">
+                <h3>Development</h3>
+                <p>
+                  The development phase involves coding, integrating, and building the software components based on the design specifications.
+                </p>
+              </div>
+              <div className="process-box bottom-right bv4">
+                <h3>Testing</h3>
+                <p>
+                  The testing ensures the software's quality by identifying and fixing bugs, verifying functionality, and validating performance against requirements.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="side-image">
+            <img src={card8} alt="loading..."></img>
+          </div>
+        </div>
+
+      </div>
+
+      {/* <div>
+
+
+
+          <h1 style={{ display: 'flex', justifyContent: 'center', marginTop: '0.5%', marginBottom: '2%', }}>Why Choose Us</h1>
+          <div class="why-choose-us-container">
+          <div class="title-section">
+          </div>
+          <div class="images-section">
+            <img src={card9} alt="Office space" class="image top-image" />
+            <img src={card10} alt="Team collaboration" class="image bottom-image" />
+          </div>
+          <div class="content-section">
+            <p>
+              We are committed to delivering scalable solutions that are adaptable
+              and future-ready, ensuring our clients stay prepared for evolving
+              business landscapes. With an agile development approach, we embrace
+              flexibility and iterative processes to deliver efficient and timely
+              results. Our customer-centric philosophy focuses on tailoring solutions
+              to meet each client's unique needs and goals.
+            </p>
+
+          </div>
+        </div>
+
+
+      </div> */}
+ <h1 class="title-section"style={{ display: 'flex', justifyContent: 'center', marginTop: '4%', marginBottom: '4%', }} >Why Choose Us</h1>
+<div class="why-choose-us-container">
+ 
+  <div class="content-wrapper">
+    <div class="images-section">
+      <img src={card9} alt="Office space" class="image top-image" />
+      <img src={card10} alt="Team collaboration" class="image bottom-image" />
+    </div>
+    <div class="content-section">
+      <p>
+        We are committed to delivering scalable solutions that are adaptable
+        and future-ready, ensuring our clients stay prepared for evolving
+        business landscapes. With an agile development approach, we embrace
+        flexibility and iterative processes to deliver efficient and timely
+        results. Our customer-centric philosophy focuses on tailoring solutions
+        to meet each client's unique needs and goals.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div>
+
+
+   <footer className="footer" style={{ display: 'flex', justifyContent: 'center', marginTop: '4%',}}>
+  <div className="footer-content">
+    <div className="footer-section">
+      <h4>About Us</h4>
+      <Link to="/services#web-development">Web Development</Link><br />
+      <Link to="/services#app-development">App Development</Link><br />
+      <Link to="/services#graphic-design">Graphic Design</Link><br />
+      <Link to="/services#marketing">Marketing</Link>
+      <div className="social-icons">
+        <h4>Follow Us</h4>
+        <a href="https://www.instagram.com"><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href="https://www.youtube.com"><FontAwesomeIcon icon={faYoutube} /></a>
+        <a href="https://www.linkedin.com"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href="https://www.google.com"><FontAwesomeIcon icon={faGoogle} /></a>
+      </div>
+    </div>
+    <div className="footer-section">
+      <h4>Industries we serve</h4>
+      <a href="#ecommerce"><p>E-commerce</p></a>
+      <a href="#finance"><p>Finance</p></a>
+      <a href="#education"><p>Education</p></a>
+      <a href="#healthcare"><p>Health care</p></a>
+      <a href="#retail"><p>Retail</p></a>
+    </div>
+    <div className="footer-section">
+      <h4>Contact Us</h4>
+      <p><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:VISHWASRITECHNOLOGIES@vishcom.net">VISHWASRITECHNOLOGIES@vishcom.net</a></p>
+      <p><FontAwesomeIcon icon={faPhone} /> <a href="tel:+91 7330669716">+91 7330669716</a></p>
+      <p><FontAwesomeIcon icon={faPhone} /> <a href="tel:+91 9908208857">+91 9908208857</a></p>
+    </div>
+    <div className="footer-section">
+      <h4>Located At</h4>
+      <div className="location-info">
+        <FontAwesomeIcon icon={faLocationDot} className="location-icon" />
+        <a href="https://www.google.com/maps/place/17%C2%B026'38.4%22N+78%C2%B027'48.1%22E/@17.4439962,78.4607764,801m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d17.4439962!4d78.4633513?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D">1-10-74/B&C FLAT NO: T-402/B, TECHNOPOLIS GALADA COMPLEX, DWARAKA DAS COLONY, BEGUMPET 500016</a>
+      </div>
+    
+      <div className="footer-image">
+    <img src={card11} alt="loading..." />
+  </div>
+    </div>
+  </div>
+  {/* <div className="footer-image">
+    <img src={card11} alt="loading..." />
+  </div> */}
+</footer>
+
+</div>
+    </div>
+
+
   )
 }
 
