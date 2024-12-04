@@ -1,5 +1,7 @@
 import React from 'react'
 import './Contactus.css';
+import From from './Form.js';
+import Footer from './Footer.js';
 import { Link } from 'react-router-dom';
 function Contactus() {
   return (
@@ -26,6 +28,12 @@ function Contactus() {
 
         </div>
 
+      </div>
+      <div>
+        <From/>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   )
