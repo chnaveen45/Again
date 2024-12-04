@@ -24,7 +24,7 @@
   background-color: #0000B3;
   z-index: 10;
 
-  text-align: center;
+  text-align: left;
   padding: 20px;
   margin-bottom: 10%;
 }
@@ -93,7 +93,7 @@
 
   .logoo {
     height: 150px;
-
+    /* align-items: left; */
     width: atuo;
 
     border-top-right-radius: 200px;
@@ -105,7 +105,7 @@
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 
   }
 

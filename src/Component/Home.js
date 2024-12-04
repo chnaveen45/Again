@@ -1,8 +1,11 @@
 import React from 'react'
+import Custom from '../Navbar/Custom.js';
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+     <Custom/>
+    </div>
   )
 }
 
