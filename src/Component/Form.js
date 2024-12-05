@@ -71,7 +71,7 @@ const Form = () => {
           <FontAwesomeIcon icon={faMapMarkerAlt} />
 
           <a
-            href="https://www.google.com/maps/place/17%C2%B026'38.4%22N+78%C2%B027'48.1%22E/@17.4439962,78.4607764,801m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d17.4439962!4d78.4633513?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+            href="https://www.google.com/maps/place/Vishwasri+Technologies+Pvt.Ltd/@17.4442944,78.4634537,99m/data=!3m1!1e3!4m12!1m5!3m4!2zMTfCsDI2JzM4LjQiTiA3OMKwMjcnNDguMSJF!8m2!3d17.444!4d78.4633611!3m5!1s0x3bcb9100083e8389:0xceb1ec1986df69c8!8m2!3d17.4441096!4d78.4633524!16s%2Fg%2F11wwpw6zvb?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none", color: "inherit" }}

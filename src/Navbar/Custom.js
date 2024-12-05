@@ -44,19 +44,10 @@ function Custom() {
         </div>
 
       </div>
-      {/* <div className='ii'>
-        <h1>Our Company</h1>
-        <p>Welcome to Vishwasri Technologies Pvt Ltd, a dynamic startup dedicated to crafting innovative software solutions tailored to meet the diverse needs of modern businesses.</p>
-        <img src={card1} alt='loading...' ></img>
-        <img src={card2} alt='loading...' ></img>
-        <img src={card3} alt='loading...' ></img>
-        <img src={card4} alt='loading...' ></img>
-        <p>At Vishwasri Technologies, we specialize in custom software development, delivering high-quality, scalable, and user-centric applications that empower organizations to thrive in a competitive landscape. Whether you’re a startup, small business, or an established enterprise, our expertise ensures we bring your ideas to life with precision and creativity.</p>
-
-      </div> */}
+  
       <div className="company-container">
         <div className="company-text">
-          <h1>Our Company</h1>
+          <h1 style={{color:'#0000B3',fontFamily:'Josefin Sans'}}><b>Our Company</b></h1>
           <p>
             Welcome to Vishwasri Technologies Pvt Ltd, a dynamic startup dedicated to crafting innovative
             software solutions tailored to meet the diverse needs of modern businesses.
@@ -76,52 +67,9 @@ function Custom() {
 
         </div>
       </div>
-      {/* <div>
-      <h1>services</h1>
-    </div> */}
-      {/* <div className='mm'>
+
       <div>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={card5} />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    </div>
-    <div>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={card6} />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    </div>
-    <div>
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={card7} />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-    </div>
-    </div> */}
-      <div>
-        <h1 style={{ display: 'flex', justifyContent: 'center', }}>Services</h1>
+        <h1 style={{ display: 'flex', justifyContent: 'center', color:'#0000B3',fontFamily:'Inria Serif',marginTop:'-3%'}}><b>Services</b></h1>
         <div className="mm">
 
 
@@ -163,7 +111,7 @@ function Custom() {
 
 
       <div>
-        <h2 style={{ display: 'flex', justifyContent: 'center', marginTop: '4%', marginBottom: '4%', }}>Development Process</h2>
+        <h2 style={{ display: 'flex', justifyContent: 'center', marginTop: '4%', marginBottom: '4%',color:'#0000B3',fontFamily:'Inria Serif', }}><b>Development Process</b></h2>
         <div className="development-process">
           <div className="text-content">
 
@@ -211,34 +159,8 @@ function Custom() {
 
       </div>
 
-      {/* <div>
 
-
-
-          <h1 style={{ display: 'flex', justifyContent: 'center', marginTop: '0.5%', marginBottom: '2%', }}>Why Choose Us</h1>
-          <div class="why-choose-us-container">
-          <div class="title-section">
-          </div>
-          <div class="images-section">
-            <img src={card9} alt="Office space" class="image top-image" />
-            <img src={card10} alt="Team collaboration" class="image bottom-image" />
-          </div>
-          <div class="content-section">
-            <p>
-              We are committed to delivering scalable solutions that are adaptable
-              and future-ready, ensuring our clients stay prepared for evolving
-              business landscapes. With an agile development approach, we embrace
-              flexibility and iterative processes to deliver efficient and timely
-              results. Our customer-centric philosophy focuses on tailoring solutions
-              to meet each client's unique needs and goals.
-            </p>
-
-          </div>
-        </div>
-
-
-      </div> */}
- <h1 class="title-section"style={{ display: 'flex', justifyContent: 'center', marginTop: '4%', marginBottom: '4%', }} >Why Choose Us</h1>
+ <h1 class="title-section"style={{ display: 'flex', justifyContent: 'center', marginTop: '4%', marginBottom: '4%',color:'#0000B3',fontFamily:'Inria Serif', }} ><b>Why Choose Us</b></h1>
 <div class="why-choose-us-container">
  
   <div class="content-wrapper">
@@ -271,11 +193,11 @@ function Custom() {
       <Link to="/services#graphic-design">Graphic Design</Link><br />
       <Link to="/services#marketing">Marketing</Link>
       <div className="social-icons">
-        <h4>Follow Us</h4>
-        <a href="https://www.instagram.com"><FontAwesomeIcon icon={faInstagram} /></a>
-        <a href="https://www.youtube.com"><FontAwesomeIcon icon={faYoutube} /></a>
-        <a href="https://www.linkedin.com"><FontAwesomeIcon icon={faLinkedin} /></a>
-        <a href="https://www.google.com"><FontAwesomeIcon icon={faGoogle} /></a>
+       <h4>Follow Us</h4>
+        <a href="https://www.instagram.com/vishwasri_technologies_01/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href="https://www.youtube.com/@VISHWASRITECHNOLOGIES" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
+        <a href="https://www.linkedin.com/in/vishwasri-technologies-330005331/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+        <a href="https://www.vishcom.net" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGoogle} /></a>
       </div>
     </div>
     <div className="footer-section">
@@ -296,7 +218,7 @@ function Custom() {
       <h4>Located At</h4>
       <div className="location-info">
         <FontAwesomeIcon icon={faLocationDot} className="location-icon" />
-        <a href="https://www.google.com/maps/place/17%C2%B026'38.4%22N+78%C2%B027'48.1%22E/@17.4439962,78.4607764,801m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d17.4439962!4d78.4633513?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D">1-10-74/B&C FLAT NO: T-402/B, TECHNOPOLIS GALADA COMPLEX, DWARAKA DAS COLONY, BEGUMPET 500016</a>
+        <a href="https://www.google.com/maps/place/Vishwasri+Technologies+Pvt.Ltd/@17.4442944,78.4634537,99m/data=!3m1!1e3!4m12!1m5!3m4!2zMTfCsDI2JzM4LjQiTiA3OMKwMjcnNDguMSJF!8m2!3d17.444!4d78.4633611!3m5!1s0x3bcb9100083e8389:0xceb1ec1986df69c8!8m2!3d17.4441096!4d78.4633524!16s%2Fg%2F11wwpw6zvb?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D">1-10-74/B&C FLAT NO: T-402/B, TECHNOPOLIS GALADA COMPLEX, DWARAKA DAS COLONY, BEGUMPET 500016</a>
       </div>
     
       <div className="footer-image">
@@ -304,9 +226,7 @@ function Custom() {
   </div>
     </div>
   </div>
-  {/* <div className="footer-image">
-    <img src={card11} alt="loading..." />
-  </div> */}
+
 </footer>
 
 </div>

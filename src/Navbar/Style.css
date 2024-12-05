@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 
@@ -33,16 +34,16 @@
 
 
 .logo {
-  height: 80px; /* Logo size */
-  max-width: 100px; /* Restrict max width for responsiveness */
+  height: 80px; 
+  max-width: 100px; 
   display: block;
 }
 
-/* Navbar Styling */
+
 .navbar {
   display: flex;
   text-decoration: none;
-  gap: 20px; /* Space between links */
+  gap: 20px;
 }
 
 
@@ -53,7 +54,7 @@
   /* padding: 8px 12px; */
   gap: 1em;
   padding: 0.5em;
-  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 .tt:hover {
@@ -66,20 +67,6 @@ padding-right: 3px; */
   color: white;
   
 }
-/* 
-.uu{
-  color: white;
-  display: flex;
-  flex-direction: column;
-  border: 1px soild black;
-  background-color: #014CA6;
-  margin-right: 40%;
-  margin-left: 10%;
-  border-radius: 6px;
-  margin-top: 10%;
-  gap: 1rem;
-  padding: 1rem;
-} */
 
 
 .uu {
@@ -256,6 +243,7 @@ padding-right: 3px; */
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
+  
 
 }
 
