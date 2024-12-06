@@ -79,7 +79,7 @@ function Custom() {
               <Card.Img variant="top" src={card5} />
               <Card.Body style={{ background: '#014CA6', color: 'white', }}>
                 <Card.Title>Graphic Design</Card.Title>
-                <Card.Text>Our graphic design team brings creativity and professionalism to every project. We offer a range of design services, including branding, logo creation, social media graphic and marketing materials. Our goal is to help your business make a lasting visual impression that resonates with tour audience. <Link to="/services" style={{ color: 'red' }}>  Know more</Link></Card.Text>
+                <Card.Text>Our graphic design team brings creativity and professionalism to every project. We offer a range of design services, including branding, logo creation, social media graphic and marketing materials. Our goal is to help your business make a lasting visual impression that resonates with tour audience. <Link to="/services#graphic-design"style={{ color: 'red' }}>  Know more</Link></Card.Text>
 
               </Card.Body>
             </Card>
@@ -89,7 +89,7 @@ function Custom() {
               <Card.Img variant="top" src={card6} />
               <Card.Body style={{ background: '#014CA6', color: 'white', }}>
                 <Card.Title>Web & App Development</Card.Title>
-                <Card.Text>With a focus on functionality and user experience, our web development team creates responsive, secure, and visually appealing websites. From e-commerce platforms to corporate websites, we ensure that each site reflects the brand’s identity while meeting <Link to="/services" style={{ color: 'red' }}>  Know more</Link> </Card.Text>
+                <Card.Text>With a focus on functionality and user experience, our web development team creates responsive, secure, and visually appealing websites. From e-commerce platforms to corporate websites, we ensure that each site reflects the brand’s identity while meeting <Link to="/services#web-development" style={{ color: 'red' }}>  Know more</Link> </Card.Text>
 
               </Card.Body>
             </Card>
@@ -99,7 +99,7 @@ function Custom() {
               <Card.Img variant="top" src={card7} />
               <Card.Body style={{ background: '#014CA6', color: 'white', }}>
                 <Card.Title>Marketing</Card.Title>
-                <Card.Text>Our marketing services are designed to help your business grow in a digital-first world. We offer comprehensive strategies across social media marketing, search engine optimization (SEO), content marketing and paid advertising, helping to increase brand visibility, reach target audiences. <Link to="/services" style={{ color: 'red' }}>  Know more</Link> </Card.Text>
+                <Card.Text>Our marketing services are designed to help your business grow in a digital-first world. We offer comprehensive strategies across social media marketing, search engine optimization (SEO), content marketing and paid advertising, helping to increase brand visibility, reach target audiences. <Link to="/services#marketing" style={{ color: 'red' }}>  Know more</Link> </Card.Text>
 
               </Card.Body>
             </Card>
