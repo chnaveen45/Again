@@ -13,7 +13,7 @@ function Footer() {
         <footer className="footer" style={{ display: 'flex', justifyContent: 'center', marginTop: '4%',}}>
   <div className="footer-content">
     <div className="footer-section">
-      <h4>About Us</h4>
+      <h4>Services</h4>
       <Link to="/services#web-development">Web Development</Link><br />
       <Link to="/services#app-development">App Development</Link><br />
       <Link to="/services#graphic-design">Graphic Design</Link><br />

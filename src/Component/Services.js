@@ -37,7 +37,7 @@ function Services() {
         </div>
         <div className='navbars' >
           <Link to="/home" className='tts' >Home</Link>
-          <Link to="/services" className='tts'>Service</Link>
+          <Link to="/services" className='tts'>Services</Link>
           <Link to="/aboutus" className='tts'>AboutUs</Link>
           <Link to="/contactus" className='tts'>ContactUs</Link>
 

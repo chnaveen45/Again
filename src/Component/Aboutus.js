@@ -20,7 +20,7 @@ function Aboutus() {
         </div>
         <div className='navbarss' >
           <Link to="/home" className='ttts' >Home</Link>
-          <Link to="/services" className='ttts'>Service</Link>
+          <Link to="/services" className='ttts'>Services</Link>
           <Link to="/aboutus" className='ttts'>AboutUs</Link>
           <Link to="/contactus" className='ttts'>ContactUs</Link>
 

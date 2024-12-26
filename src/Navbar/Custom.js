@@ -31,7 +31,7 @@ function Custom() {
           <img src={ff} alt="logo" className='logo' />
           <div className='navbar' >
             <Link to="/home" className='tt' >Home</Link>
-            <Link to="/services" className='tt'>Service</Link>
+            <Link to="/services" className='tt'>Services</Link>
             <Link to="/aboutus" className='tt'>AboutUs</Link>
             <Link to="/contactus" className='tt'>ContactUs</Link>
 
@@ -187,7 +187,7 @@ function Custom() {
         <footer className="footer" style={{ display: 'flex', justifyContent: 'center', marginTop: '4%', }}>
           <div className="footer-content">
             <div className="footer-section">
-              <h4>About Us</h4>
+              <h4>Services</h4>
               <Link to="/services#web-development">Web Development</Link><br />
               <Link to="/services#app-development">App Development</Link><br />
               <Link to="/services#graphic-design">Graphic Design</Link><br />

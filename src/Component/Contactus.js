@@ -20,7 +20,7 @@ function Contactus() {
         </div>
         <div className='got' >
           <Link to="/home" className='ten' >Home</Link>
-          <Link to="/services" className='ten'>Service</Link>
+          <Link to="/services" className='ten'>Services</Link>
           <Link to="/aboutus" className='ten'>AboutUs</Link>
           <Link to="/contactus" className='ten'>ContactUs</Link>
 
